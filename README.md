@@ -10,7 +10,7 @@
 
 ## What's Inside
 
-Seven high-quality, battle-tested skill files that supercharge your Claude Code workflows — completely free.
+Twelve high-quality, battle-tested skill files that supercharge your Claude Code workflows — completely free.
 
 | | Skill | Description | Link |
 |---|---|---|---|
@@ -21,6 +21,11 @@ Seven high-quality, battle-tested skill files that supercharge your Claude Code 
 | 📖 | **API Docs Writer** | Generate API documentation from route handlers with examples | [View](./api-docs-writer/) |
 | ♻️ | **Refactoring Assistant** | Identify code smells and apply systematic refactoring patterns | [View](./refactoring-assistant/) |
 | 🌿 | **Git Branch Manager** | Create, manage, and clean up branches with smart naming | [View](./git-branch-manager/) |
+| 🔐 | **Environment Config Manager** | Manage .env files, validate required variables, generate .env.example templates, and detect missing config | [View](./env-config-manager/) |
+| 📄 | **README Generator** | Analyze project structure and generate a comprehensive README.md with badges, install instructions, and usage examples | [View](./readme-generator/) |
+| 📊 | **Data Schema Validator** | Validate JSON/YAML schemas, generate TypeScript interfaces and Zod schemas from data samples, and detect schema drift | [View](./data-schema-validator/) |
+| ♿ | **Accessibility Auditor** | Scan web app code for WCAG 2.1 violations — color contrast, alt text, ARIA labels, keyboard navigation, and semantic HTML | [View](./accessibility-auditor/) |
+| 🌍 | **i18n/Localization Helper** | Extract hardcoded strings into translation keys, generate locale files, find untranslated strings, and validate locale completeness | [View](./i18n-helper/) |
 
 ---
 
@@ -70,7 +75,7 @@ Need a skill tailored to your team's workflow? **SkillForge Builder** lets you d
 
 ## Full Catalog
 
-These 7 free skills are just the beginning. Browse the full catalog of free and premium skills:
+These 12 free skills are just the beginning. Browse the full catalog of free and premium skills:
 
 👉 [**Browse All Skills**](https://skillforge-tawny.vercel.app/skills)
 

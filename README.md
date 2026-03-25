@@ -10,7 +10,7 @@
 
 ## What's Inside
 
-Twelve high-quality, battle-tested skill files that supercharge your Claude Code workflows — completely free.
+Fifteen high-quality, battle-tested skill files that supercharge your Claude Code workflows — completely free.
 
 | | Skill | Description | Link |
 |---|---|---|---|
@@ -26,6 +26,9 @@ Twelve high-quality, battle-tested skill files that supercharge your Claude Code
 | 📊 | **Data Schema Validator** | Validate JSON/YAML schemas, generate TypeScript interfaces and Zod schemas from data samples, and detect schema drift | [View](./data-schema-validator/) |
 | ♿ | **Accessibility Auditor** | Scan web app code for WCAG 2.1 violations — color contrast, alt text, ARIA labels, keyboard navigation, and semantic HTML | [View](./accessibility-auditor/) |
 | 🌍 | **i18n/Localization Helper** | Extract hardcoded strings into translation keys, generate locale files, find untranslated strings, and validate locale completeness | [View](./i18n-helper/) |
+| 🚨 | **Error Explainer** | Paste any error or stack trace — get a plain-English explanation, root cause analysis, and a working fix | [View](./error-explainer/) |
+| 📋 | **Changelog Generator** | Auto-generate a polished CHANGELOG.md from git history, grouped by type, linked to commits | [View](./changelog-generator/) |
+| 🧠 | **Prompt Engineer** | Turn vague instructions into optimized AI prompts with system messages, few-shot examples, and structured output formats | [View](./prompt-engineer/) |
 
 ---
 
@@ -37,7 +40,7 @@ Each skill is a standalone `SKILL.md` file. Pick the ones you want and copy them
 
 ```bash
 # Clone this repo
-git clone https://github.com/your-org/skillforge-free-skills.git
+git clone https://github.com/sourav15mukherjee/skillforge-free-skills.git
 cd skillforge-free-skills
 
 # Copy all skills globally
@@ -75,9 +78,17 @@ Need a skill tailored to your team's workflow? **SkillForge Builder** lets you d
 
 ## Full Catalog
 
-These 12 free skills are just the beginning. Browse the full catalog of free and premium skills:
+These 15 free skills are just the beginning. Browse the full catalog of 24 free and premium skills:
 
 👉 [**Browse All Skills**](https://skillforge-tawny.vercel.app/skills)
+
+---
+
+## Scan Your Skills for Security
+
+Before installing any skill file, scan it for vulnerabilities. **SkillForge Security Scanner** audits skill files across 9 security categories (command injection, data exfiltration, credential leaks, and more) and gives you a safety score from 1-10.
+
+👉 [**Scan a Skill File**](https://skillforge-tawny.vercel.app/scanner)
 
 ---
 

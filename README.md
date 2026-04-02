@@ -10,7 +10,7 @@
 
 ## What's Inside
 
-Fifteen high-quality, battle-tested skill files that supercharge your Claude Code workflows — completely free.
+Nineteen high-quality, battle-tested skill files that supercharge your Claude Code workflows — completely free.
 
 | | Skill | Description | Link |
 |---|---|---|---|
@@ -29,6 +29,10 @@ Fifteen high-quality, battle-tested skill files that supercharge your Claude Cod
 | 🚨 | **Error Explainer** | Paste any error or stack trace — get a plain-English explanation, root cause analysis, and a working fix | [View](./error-explainer/) |
 | 📋 | **Changelog Generator** | Auto-generate a polished CHANGELOG.md from git history, grouped by type, linked to commits | [View](./changelog-generator/) |
 | 🧠 | **Prompt Engineer** | Turn vague instructions into optimized AI prompts with system messages, few-shot examples, and structured output formats | [View](./prompt-engineer/) |
+| 🎨 | **Frontend Design System** | Generate production-grade UI with visual style systems, color palettes, typography pairings, and responsive component layouts | [View](./frontend-design-system/) |
+| 🐳 | **Dockerfile Optimizer** | Analyze and optimize Dockerfiles for image size, layer caching, security hardening, and build speed | [View](./dockerfile-optimizer/) |
+| 🛡️ | **Dependency Vulnerability Scanner** | Scan project dependencies for known CVEs, outdated packages, and supply chain risks with severity ratings and remediation steps | [View](./dependency-vuln-scanner/) |
+| ⚡ | **SQL Query Optimizer** | Analyze and optimize SQL queries for performance with EXPLAIN plans, index suggestions, and rewrites for PostgreSQL, MySQL, and SQLite | [View](./sql-query-optimizer/) |
 
 ---
 
@@ -78,7 +82,7 @@ Need a skill tailored to your team's workflow? **SkillForge Builder** lets you d
 
 ## Full Catalog
 
-These 15 free skills are just the beginning. Browse the full catalog of 24 free and premium skills:
+These 19 free skills are just the beginning. Browse the full catalog of 28 free and premium skills:
 
 👉 [**Browse All Skills**](https://skillforge-tawny.vercel.app/skills)
 

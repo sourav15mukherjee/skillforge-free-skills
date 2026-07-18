@@ -6,14 +6,14 @@ description: >-
   analysis that needs provenance, pagination, and explicit coverage limits.
 license: MIT
 compatibility: >-
-  Requires an installed Xquik MCP server or a reviewed Xquik export in JSON,
+  Requires a configured Xquik MCP server or a reviewed Xquik export in JSON,
   JSONL, or CSV format.
 ---
 
 ## Xquik X Research
 
 Research public X conversations with Xquik and turn the results into a
-traceable evidence brief. Use an installed Xquik MCP server when available, or
+traceable evidence brief. Use a configured Xquik MCP server when available, or
 an export reviewed by the user in JSON, JSONL, or CSV format.
 
 ## Workflow

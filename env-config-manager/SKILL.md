@@ -5,13 +5,9 @@ description: >-
   templates, and detect missing config between environments. Use when the user
   asks to check environment variables, create an env example file, compare
   configs, validate env setup, or audit secrets in their repository.
-version: "1.0.0"
-tools:
-  - Bash
-  - Read
-  - Write
-  - Grep
-  - Glob
+metadata:
+  version: "1.0.0"
+allowed-tools: Bash Read Write Grep Glob
 ---
 
 ## Environment Config Manager

@@ -5,13 +5,9 @@ description: >-
   from data samples, and detect schema drift. Use when the user asks to
   generate types from JSON, create a Zod schema, validate API responses,
   check data shapes, or compare schema versions.
-version: "1.0.0"
-tools:
-  - Read
-  - Write
-  - Grep
-  - Glob
-  - Bash
+metadata:
+  version: "1.0.0"
+allowed-tools: Read Write Grep Glob Bash
 ---
 
 ## Data Schema Validator

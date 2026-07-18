@@ -5,13 +5,9 @@ description: >-
   and build speed. Use when the user asks to optimize a Dockerfile, reduce
   image size, harden a container, improve build performance, or review
   Docker configuration. Produces scored analysis with before/after diffs.
-version: "1.0.0"
-tools:
-  - Read
-  - Write
-  - Bash
-  - Grep
-  - Glob
+metadata:
+  version: "1.0.0"
+allowed-tools: Read Write Bash Grep Glob
 ---
 
 ## Dockerfile Optimizer

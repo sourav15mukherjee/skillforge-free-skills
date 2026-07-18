@@ -4,12 +4,9 @@ description: >-
   Diagnose and fix error messages and stack traces. Use when the user pastes an
   error, stack trace, build failure, or runtime exception. Provides plain-English
   explanation, root cause analysis, and a working fix using actual project context.
-version: "1.0.0"
-tools:
-  - Bash
-  - Read
-  - Grep
-  - Glob
+metadata:
+  version: "1.0.0"
+allowed-tools: Bash Read Grep Glob
 ---
 
 ## Error Explainer

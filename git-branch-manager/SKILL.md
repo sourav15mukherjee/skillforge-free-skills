@@ -5,9 +5,9 @@ description: >-
   Use when the user asks to create a branch, switch branches, clean up
   branches, list branches, or manage git workflow. Follows team naming
   conventions and prevents common mistakes.
-version: "1.0.0"
-tools:
-  - Bash
+metadata:
+  version: "1.0.0"
+allowed-tools: Bash
 ---
 
 ## Git Branch Manager

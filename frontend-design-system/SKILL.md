@@ -5,11 +5,9 @@ description: >-
   palettes, typography, and responsive layouts. Use when the user asks to
   build UI, create a landing page, design a component, generate a hero section,
   or wants frontend design help with styling and layout.
-version: "1.0.0"
-tools:
-  - Read
-  - Write
-  - Bash
+metadata:
+  version: "1.0.0"
+allowed-tools: Read Write Bash
 ---
 
 ## Frontend Design System

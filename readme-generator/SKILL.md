@@ -5,13 +5,9 @@ description: >-
   the user asks to create a README, generate documentation, write project docs,
   or wants a README for their repo. Scans the codebase and produces a polished
   README with all standard sections.
-version: "1.0.0"
-tools:
-  - Bash
-  - Read
-  - Write
-  - Grep
-  - Glob
+metadata:
+  version: "1.0.0"
+allowed-tools: Bash Read Write Grep Glob
 ---
 
 ## README Generator

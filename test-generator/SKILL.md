@@ -5,13 +5,9 @@ description: >-
   or modules. Use when the user asks to write tests, add tests, create test
   coverage, or test a specific function. Detects the testing framework and
   produces thorough test suites with edge cases.
-version: "1.0.0"
-tools:
-  - Bash
-  - Read
-  - Write
-  - Grep
-  - Glob
+metadata:
+  version: "1.0.0"
+allowed-tools: Bash Read Write Grep Glob
 ---
 
 ## Test Generator

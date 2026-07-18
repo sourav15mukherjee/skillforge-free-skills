@@ -5,13 +5,9 @@ description: >-
   user asks to refactor code, clean up code, improve code quality, reduce
   complexity, or fix code smells. Applies proven refactoring patterns while
   preserving behavior.
-version: "1.0.0"
-tools:
-  - Read
-  - Edit
-  - Grep
-  - Glob
-  - Bash
+metadata:
+  version: "1.0.0"
+allowed-tools: Read Edit Grep Glob Bash
 ---
 
 ## Refactoring Assistant

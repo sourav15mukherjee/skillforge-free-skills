@@ -5,13 +5,9 @@ description: >-
   find untranslated strings, and validate locale completeness. Use when the
   user asks to internationalize their app, add translations, extract strings,
   check for missing translations, or set up i18n.
-version: "1.0.0"
-tools:
-  - Read
-  - Write
-  - Grep
-  - Glob
-  - Bash
+metadata:
+  version: "1.0.0"
+allowed-tools: Read Write Grep Glob Bash
 ---
 
 ## i18n/Localization Helper

@@ -86,7 +86,7 @@ Need a skill tailored to your team's workflow? **SkillForge Builder** lets you d
 
 ## Full Catalog
 
-These 19 free skills are just the beginning. Browse the full catalog of 28 free and premium skills:
+These 20 free skills are just the beginning. Browse the full catalog of free and premium skills:
 
 👉 [**Browse All Skills**](https://skillforge-tawny.vercel.app/skills)
 
@@ -119,7 +119,12 @@ PRs are welcome! If you have a skill that you think others would find useful:
 3. Add a `SKILL.md` and a short `README.md`
 4. Open a pull request
 
-Please ensure your skill follows the [SKILL.md format](https://docs.anthropic.com) and has been tested with Claude Code.
+Please ensure your skill follows the [Agent Skills specification](https://agentskills.io/specification) and passes the reference validator:
+
+```bash
+uvx --from git+https://github.com/agentskills/agentskills#subdirectory=skills-ref \
+  skills-ref validate ./your-skill
+```
 
 ---
 

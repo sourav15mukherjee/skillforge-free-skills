@@ -5,11 +5,9 @@ description: >-
   the user asks to create a PR, write a PR description, or prepare a pull
   request. Analyzes all commits and changes between branches to produce
   structured descriptions with summary, changes list, and test plan.
-version: "1.0.0"
-tools:
-  - Bash
-  - Read
-  - Grep
+metadata:
+  version: "1.0.0"
+allowed-tools: Bash Read Grep
 ---
 
 ## PR Description Writer

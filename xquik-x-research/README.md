@@ -1,7 +1,7 @@
 # Xquik X Research
 
 Build source-backed research briefs from public X conversations using Xquik.
-The skill supports an installed Xquik MCP server or reviewed Xquik exports in
+The skill supports a configured Xquik MCP server or reviewed Xquik exports in
 JSON, JSONL, and CSV formats.
 
 ## Install
@@ -25,11 +25,11 @@ For project-scoped installation, place this directory under
 
 ## Configure Xquik
 
-Set `XQUIK_API_KEY` in the client environment when using the Xquik MCP server.
-Never paste the key into a skill, prompt, repository, or export.
+Configure the Xquik MCP server with its supported API key or OAuth flow.
+Never paste credentials into a skill, prompt, repository, or export.
 
-Current product and API guidance is available in the
-[Xquik documentation](https://docs.xquik.com).
+Use the current [MCP setup guide](https://docs.xquik.com/mcp/overview) or
+[REST API guide](https://docs.xquik.com/api-reference/overview).
 
 ## Use
 

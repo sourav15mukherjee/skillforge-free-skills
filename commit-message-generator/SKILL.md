@@ -5,10 +5,9 @@ description: >-
   user asks to commit, create a commit message, write a commit, or wants help
   with git commits. Analyzes staged diffs and produces structured messages
   following the Conventional Commits specification.
-version: "1.0.0"
-tools:
-  - Bash
-  - Read
+metadata:
+  version: "1.0.0"
+allowed-tools: Bash Read
 ---
 
 ## Commit Message Generator

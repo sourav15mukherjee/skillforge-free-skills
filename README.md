@@ -10,7 +10,7 @@
 
 ## What's Inside
 
-Nineteen high-quality, battle-tested skill files that supercharge your Claude Code workflows — completely free.
+Twenty high-quality, battle-tested skill files that supercharge your Claude Code workflows — completely free.
 
 | | Skill | Description | Link |
 |---|---|---|---|
@@ -33,6 +33,7 @@ Nineteen high-quality, battle-tested skill files that supercharge your Claude Co
 | 🐳 | **Dockerfile Optimizer** | Analyze and optimize Dockerfiles for image size, layer caching, security hardening, and build speed | [View](./dockerfile-optimizer/) |
 | 🛡️ | **Dependency Vulnerability Scanner** | Scan project dependencies for known CVEs, outdated packages, and supply chain risks with severity ratings and remediation steps | [View](./dependency-vuln-scanner/) |
 | ⚡ | **SQL Query Optimizer** | Analyze and optimize SQL queries for performance with EXPLAIN plans, index suggestions, and rewrites for PostgreSQL, MySQL, and SQLite | [View](./sql-query-optimizer/) |
+| 🔎 | **Xquik X Research** | Research public X conversations with source provenance, pagination, coverage notes, and safe action boundaries | [View](./xquik-x-research/) |
 
 ---
 
@@ -49,8 +50,11 @@ cd skillforge-free-skills
 
 # Copy all skills globally
 mkdir -p ~/.claude/skills
-for skill in */SKILL.md; do
-  cp "$skill" ~/.claude/skills/"$(dirname "$skill").md"
+for skill_dir in */; do
+  [ -f "${skill_dir}SKILL.md" ] || continue
+  skill_name="${skill_dir%/}"
+  mkdir -p "$HOME/.claude/skills/$skill_name"
+  cp "${skill_dir}SKILL.md" "$HOME/.claude/skills/$skill_name/SKILL.md"
 done
 ```
 
@@ -58,15 +62,15 @@ done
 
 ```bash
 # Copy a single skill into your project
-mkdir -p .claude/skills
-cp commit-message-generator/SKILL.md .claude/skills/commit-message-generator.md
+mkdir -p .claude/skills/commit-message-generator
+cp commit-message-generator/SKILL.md .claude/skills/commit-message-generator/SKILL.md
 ```
 
 ### Manual Install
 
 1. Open any skill folder above
 2. Copy the contents of `SKILL.md`
-3. Save it to `~/.claude/skills/` (global) or `.claude/skills/` (project)
+3. Save it as `<skill-name>/SKILL.md` under `~/.claude/skills/` (global) or `.claude/skills/` (project)
 
 That's it — Claude Code will automatically detect and use the skill when relevant.
 
@@ -82,7 +86,7 @@ Need a skill tailored to your team's workflow? **SkillForge Builder** lets you d
 
 ## Full Catalog
 
-These 19 free skills are just the beginning. Browse the full catalog of 28 free and premium skills:
+These 20 free skills are just the beginning. Browse the full catalog of free and premium skills:
 
 👉 [**Browse All Skills**](https://skillforge-tawny.vercel.app/skills)
 
@@ -100,6 +104,10 @@ Before installing any skill file, scan it for vulnerabilities. **SkillForge Secu
 
 SkillForge also supports the **OpenClaw** format for skill distribution. OpenClaw packages include metadata, versioning, and multi-file support for more complex skills. Check the [SkillForge site](https://skillforge-tawny.vercel.app) for details.
 
+Install a repository skill globally by copying its directory into
+`~/.openclaw/skills/`. For a single OpenClaw workspace, copy it into that
+workspace's `skills/` directory instead.
+
 ---
 
 ## Contributing
@@ -111,7 +119,12 @@ PRs are welcome! If you have a skill that you think others would find useful:
 3. Add a `SKILL.md` and a short `README.md`
 4. Open a pull request
 
-Please ensure your skill follows the [SKILL.md format](https://docs.anthropic.com) and has been tested with Claude Code.
+Please ensure your skill follows the [Agent Skills specification](https://agentskills.io/specification) and passes the reference validator:
+
+```bash
+uvx --from git+https://github.com/agentskills/agentskills#subdirectory=skills-ref \
+  skills-ref validate ./your-skill
+```
 
 ---
 

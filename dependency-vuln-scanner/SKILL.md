@@ -6,12 +6,9 @@ description: >-
   vulnerabilities, scan packages, run a security check on node_modules, or
   wants to know if their dependencies are safe. Supports npm, pip, cargo,
   go mod, maven, gem, and nuget.
-version: "1.0.0"
-tools:
-  - Read
-  - Bash
-  - Grep
-  - Glob
+metadata:
+  version: "1.0.0"
+allowed-tools: Read Bash Grep Glob
 ---
 
 ## Dependency Vulnerability Scanner

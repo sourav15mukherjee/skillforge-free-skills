@@ -5,12 +5,9 @@ description: >-
   the user asks to check accessibility, audit a11y, find WCAG issues, review
   for screen reader support, or improve accessibility. Analyzes components
   and templates for violations and outputs a prioritized report.
-version: "1.0.0"
-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
+metadata:
+  version: "1.0.0"
+allowed-tools: Read Grep Glob Bash
 ---
 
 ## Accessibility Auditor

@@ -5,12 +5,9 @@ description: >-
   practice violations. Use when the user asks to review code, check code
   quality, find bugs, or audit a file. Provides actionable feedback with
   severity ratings and suggested fixes.
-version: "1.0.0"
-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
+metadata:
+  version: "1.0.0"
+allowed-tools: Read Grep Glob Bash
 ---
 
 ## Code Reviewer

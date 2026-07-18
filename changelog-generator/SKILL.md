@@ -5,11 +5,9 @@ description: >-
   create a changelog, write release notes from commits, update CHANGELOG.md,
   or prepare for a release. Analyzes commits since the last tag and produces
   a formatted entry grouped by type.
-version: "1.0.0"
-tools:
-  - Bash
-  - Read
-  - Write
+metadata:
+  version: "1.0.0"
+allowed-tools: Bash Read Write
 ---
 
 ## Changelog Generator

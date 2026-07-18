@@ -4,10 +4,9 @@ description: >-
   Help users craft optimized AI prompts. Use when the user asks to write a
   prompt, improve a prompt, create a system message, build few-shot examples,
   or optimize LLM instructions for any AI model (OpenAI, Anthropic, open-source).
-version: "1.0.0"
-tools:
-  - Read
-  - Write
+metadata:
+  version: "1.0.0"
+allowed-tools: Read Write
 ---
 
 ## Prompt Engineer

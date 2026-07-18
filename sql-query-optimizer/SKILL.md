@@ -5,11 +5,9 @@ description: >-
   to optimize a query, improve database performance, analyze an EXPLAIN plan,
   add indexes, rewrite slow queries, or has a database bottleneck. Supports
   PostgreSQL, MySQL, and SQLite.
-version: "1.0.0"
-tools:
-  - Read
-  - Bash
-  - Grep
+metadata:
+  version: "1.0.0"
+allowed-tools: Read Bash Grep
 ---
 
 ## SQL Query Optimizer

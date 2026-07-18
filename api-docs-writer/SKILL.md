@@ -5,12 +5,9 @@ description: >-
   asks to document APIs, create API docs, generate endpoint documentation,
   or write API reference. Scans route handlers and produces structured docs
   with endpoints, parameters, and examples.
-version: "1.0.0"
-tools:
-  - Read
-  - Grep
-  - Glob
-  - Write
+metadata:
+  version: "1.0.0"
+allowed-tools: Read Grep Glob Write
 ---
 
 ## API Docs Writer
